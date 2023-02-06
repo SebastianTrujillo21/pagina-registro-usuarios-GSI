@@ -8,21 +8,24 @@
         <v-icon>mdi-heart</v-icon>
       </v-btn>
     </v-app-bar>
-        <v-main>
-      <HelloWorld/>
+    <v-main>
+          <HelloWorld/>
+          <!-- <LoginGSI/> -->
     </v-main>
+
   </v-app>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld';
-
+// import LoginGSI from './components/LoginGSI.vue';
 export default {
   name: 'App',
 
   components: {
     HelloWorld,
-  },
+    // LoginGSI
+},
 
   data: () => ({
     collapseOnScroll: true,
